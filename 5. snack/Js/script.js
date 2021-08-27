@@ -26,5 +26,10 @@ if ( length_1 > length_2 ) {
 } else if ( length_1 < length_2 ) {
 
 } else {
-    
+
 }
+
+// 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro
+do {
+
+} while ( length_1 < length_2 )
