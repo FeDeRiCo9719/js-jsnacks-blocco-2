@@ -14,5 +14,5 @@ while (isNaN(num)) {
 if (num % 2 == 0) {
     alert("Il numero " + num + " è pari");
 } else {
-    alert( "Il numero successivo è " + num + 1 );
+    alert( "Il numero successivo è " + (num + 1) );
 }
