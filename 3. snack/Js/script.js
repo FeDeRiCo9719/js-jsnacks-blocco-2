@@ -8,5 +8,5 @@ var supporto = [];
 
 //2. Accoppiare un nome casuale con un cognome casuale => math.random(da 0 a 2) tramite indice array
 for ( var i = 0; i<nomi.length; i++ ) {
-    console.log( nomi[Math.floor(Math.random() * 2)] + cognomi[Math.floor(Math.random() * 2)]);
+    console.log( nomi[Math.floor(Math.random() * 2)] + " " + cognomi[Math.floor(Math.random() * 2)]);
 }
