@@ -21,14 +21,12 @@ var supporto = 0;
 // }
 
 // //OUTPUT 
-// // 2. stampare la sommare
+// // 2. stampare la somma
 // console.log(somma);
 
 
 // CICLO WHILE
-
 var i = 0;
-
 while (i<5) {
     supporto = parseInt( prompt ("inserisci un numero") );
     while (isNaN(supporto)) {
@@ -41,5 +39,5 @@ while (i<5) {
 }
 
 //OUTPUT 
-// 2. stampare la sommare
+// 2. stampare la somma
 console.log(somma);
