@@ -4,6 +4,7 @@
 //INPUT
 // 1. inserire un numero (variabile)
 var num = parseInt(prompt("Inserisci un numero"));
+
 while (isNaN(num)) {
     alert("carattere non valido, riprova");
     num = parseInt(prompt("inserisci un numero"));
@@ -13,5 +14,5 @@ while (isNaN(num)) {
 if (num % 2 == 0) {
     alert("Il numero " + num + " è pari");
 } else {
-    alert();
+    alert( "Il numero successivo è " + num + 1 );
 }
