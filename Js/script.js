@@ -7,13 +7,13 @@ Esegui questo programma in due versioni, con il for e con il while. */
 
 //INPUT 
 // 1. propmt * 5 => ciclo * 5
+var somma = 0;
 var supporto = 0;
-var ciao = 0;
 
 for ( var i = 0; i<5; i++ ) {
-    ciao = parseInt( prompt ("inserisci un numero") );
+    supporto = parseInt( prompt ("inserisci un numero") );
     console.log(supporto);
-    supporto = supporto + ciao
+    somma  = somma  + supporto
 }
 
-console.log(supporto);
+console.log(somma);
