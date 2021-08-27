@@ -10,6 +10,7 @@ while (isNaN(num)) {
     num = parseInt(prompt("inserisci un numero"));
 }
 
+//OUTPUT
 // 2. SE il numero è pari stampalo
 if (num % 2 == 0) {
     alert("Il numero " + num + " è pari");
