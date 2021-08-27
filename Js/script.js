@@ -12,6 +12,10 @@ var supporto = 0;
 
 for ( var i = 0; i<5; i++ ) {
     supporto = parseInt( prompt ("inserisci un numero") );
+    while (isNaN(supporto)) {
+        alert("carattere non valido, riprova");
+        supporto = parseInt(prompt("inserisci un numero casuale"));
+    }
     console.log(supporto);
     somma  = somma  + supporto
 }
