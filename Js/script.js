@@ -14,7 +14,7 @@ var supporto = 0;
 //     supporto = parseInt( prompt ("inserisci un numero") );
 //     while (isNaN(supporto)) {
 //         alert("carattere non valido, riprova");
-//         supporto = parseInt(prompt("inserisci un numero casuale"));
+//         supporto = parseInt(prompt("inserisci un numero"));
 //     }
 //     console.log(supporto);
 //     somma  = somma  + supporto
@@ -33,7 +33,7 @@ while (i<5) {
     supporto = parseInt( prompt ("inserisci un numero") );
     while (isNaN(supporto)) {
         alert("carattere non valido, riprova");
-        supporto = parseInt(prompt("inserisci un numero casuale"));
+        supporto = parseInt(prompt("inserisci un numero"));
     }
     console.log(supporto);
     somma  = somma  + supporto
