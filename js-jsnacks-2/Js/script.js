@@ -4,7 +4,7 @@
 //INPUT
 // 1. inserire un numero (variabile)
 var num = parseInt(prompt("Inserisci un numero"));
-
+// validazione
 while (isNaN(num)) {
     alert("carattere non valido, riprova");
     num = parseInt(prompt("inserisci un numero"));
