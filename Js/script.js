@@ -3,7 +3,7 @@ Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while. */
 
 // 1. propmt * 5 => ciclo * 5
-// 2. sommare tutti i numeri e stamparli
+// 2. stampar la sommare
 
 //INPUT 
 // 1. propmt * 5 => ciclo * 5
@@ -20,4 +20,6 @@ for ( var i = 0; i<5; i++ ) {
     somma  = somma  + supporto
 }
 
+//OUTPUT 
+// 2. stampar la sommare
 console.log(somma);
