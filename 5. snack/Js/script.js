@@ -7,29 +7,52 @@ poi devo accrescere automaticamente array_1 fino a raggiungere array_2  */
 
 // 1. Creare due array =>  var array = []
 // 2. Stabilire il numero di elementi che li compongono => array.lenght
-// 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro =>
+// 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro =>  while o do...while
 
 // 1. Creare due array
 var array_1 = [ 1, 2, 3, 4, 5 ];
+// var array_1 = [ 10, 20, 30, 40, 50, 60, 70, 80, 90 ];
+
 var array_2 = [ 10, 20, 30, 40, 50, 60, 70, 80, 90 ];
+// var array_2 = [ 1, 2, 3, 4, 5 ];
+
 
 // 2. Stabilire il numero di elementi che li compongono
-var length_1 = (array_1.length);
-var length_2 = (array_2.length);
+console.log("ARRAY 1 = " , array_1, array_1.length);
+console.log("ARRAY 2 = " , array_2, array_2.length);
 
-console.log(length_1);
-console.log(length_2);
 
 // 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro
-if ( length_1 > length_2 ) {
+var i = 0;
 
-} else if ( length_1 < length_2 ) {
+// while ( array_1.length < array_2.length ) {
+//     array_1.push(Math.floor(Math.random() * 10)+1);
+//     i++
+// }
 
-} else {
+// do {
+//     array_1.push(Math.floor(Math.random() * 10)+1);
+//     i++
+// } while ( array_1.length < array_2.length );
+
+// IF 
+if ( array_1.length > array_2.length ) {
+
+    do {
+        array_2.push(Math.floor(Math.random() * 10)+1);
+        i++
+    } while ( array_2.length < array_1.length );
+
+} else if ( array_1.length < array_2.length ) {
+
+    do {
+        array_1.push(Math.floor(Math.random() * 10)+1);
+        i++
+    } while ( array_1.length < array_2.length );
 
 }
 
-// 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro
-do {
 
-} while ( length_1 < length_2 )
+// 4. Stampare i nuovi valori 
+console.log("NUOVO VALORE DI ARRAY 1 = " , array_1, array_1.length);
+console.log("NUOVO VALORE DI ARRAY 2 = " , array_2, array_2.length);
