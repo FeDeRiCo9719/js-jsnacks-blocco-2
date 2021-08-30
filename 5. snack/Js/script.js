@@ -23,33 +23,37 @@ console.log("ARRAY 2 = " , array_2, array_2.length);
 
 
 // 3. confrontare i due valori, e accrescere di elementi casuali il più piccolo fino a pareggiare l'altro
-var i = 0;
+// var i = 0;
+// IF 
+// if ( array_1.length > array_2.length ) {
 
-// while ( array_1.length < array_2.length ) {
-//     array_1.push(Math.floor(Math.random() * 10)+1);
-//     i++
+//     do {
+//         array_2.push(Math.floor(Math.random() * 10)+1);
+//         i++
+//     } while ( array_1.length > array_2.length );
+
+// } else if ( array_1.length < array_2.length ) {
+
+//     do {
+//         array_1.push(Math.floor(Math.random() * 10)+1);
+//         i++
+//     } while ( array_1.length < array_2.length );
+
 // }
 
-// do {
-//     array_1.push(Math.floor(Math.random() * 10)+1);
-//     i++
-// } while ( array_1.length < array_2.length );
+if ( array_1.length == array_2.length ) {
+    console.log( "GLI ARRAY HANNO GIA' LO STESSO NUMERO DI ELEMENTI" );
 
-// IF 
-if ( array_1.length > array_2.length ) {
-
+} else {
     do {
         array_2.push(Math.floor(Math.random() * 10)+1);
-        i++
-    } while ( array_2.length < array_1.length );
-
-} else if ( array_1.length < array_2.length ) {
+        // i++
+    } while ( array_1.length > array_2.length );
 
     do {
         array_1.push(Math.floor(Math.random() * 10)+1);
-        i++
+        // i++
     } while ( array_1.length < array_2.length );
-
 }
 
 
